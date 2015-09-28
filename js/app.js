@@ -6,6 +6,3 @@ to a list, and check them off or
 delete them as they aquire 
 each item. */
 
-$(document).ready(function() {
-  alert('Oh, hi there, world');
-});
