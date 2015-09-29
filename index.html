@@ -5,6 +5,7 @@
 	<title>Shopping List App</title>
 	<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/jquery-2.1.4.min.js"></script>
@@ -12,20 +13,48 @@
 </head>
 <body>
 	<header class="header-form">
-		<div class="main">
-
 			<div class="title-wrap">
 				<h1><span class= "text-border">Shopping List</span></h1>
 			</div>
 			<div class="form-wrap">
-				<input type="text" class="add-item" placeholder="Enter new item...">
+				<input type="text" class="enter-item" placeholder="Enter new item...">
 				<button class="form-submit" type="submit">Submit</button>
 			</div>
-		</div>
 	</header>
 
-	<section>
-	</section>
+<!-- Shopping List Section -->
+
+	<div class="main">
+		<div class="items-wrap">
+			<ul class="items">
+					<li>2 carton of eggs
+					<span class="icons">
+						<a href= "#" class="unchecked-box"><i class="fa fa-square-o"></i></a>
+						<a href= "#" class="delete-circle"><i class="fa fa-minus-circle"></i></a>
+					</span>	
+				</li>
+				
+				<li>Bag of yellow onions
+					<span class="icons">
+						<a href="#" class="unchecked-box"><i class="fa fa-square-o"></i></a>
+						<a href="#" class="delete-circle"><i class="fa fa-minus-circle"></i></a>
+					</span>					
+				</li>
+				<li>Cinnamon Toast Crunch
+					<span class="icons">
+						<a href="#" class="unchecked-box"><i class="fa fa-square-o"></i></a>
+						<a href="#" class="delete-circle"><i class="fa fa-minus-circle"></i></a>
+					</span>		
+				</li>
+					<li class="checked-items"> 2 carton of eggs
+						<span class="checked-icons">
+							<a href="#" class="checked-box"><i class="fa fa-check-square-o"></i></a>
+							<a href="#" class="delete-circle"><i class="fa fa-minus-circle"></i></a>
+						</span>
+				</li>
+			</ul>
+		</div>
+	</div>
 
 </body>
 </html>
