@@ -148,16 +148,14 @@ a {
 @media only screen and (max-width: 760px) {
 
 	.form-wrap button[type="submit"] {
-		margin-left: 10px;
-	}
-}
-
-@media only screen and (max-width: 750px) {
-
-	.form-wrap button[type="submit"] {
 		margin-top:20px;
-		margin-left: 10px;
+		margin-left: 0px;
 		padding: 15px 15px;
+		width: 100%;
+	}
+
+	.form-wrap input[type="text"] {
+	  width: 100%;
 	}
 }
 
@@ -170,11 +168,6 @@ a {
 
 	.items-wrap {
 		margin-top: -10px;
-	}
-
-	.form-wrap input[type="text"] {
-	  width: 100%;
-
 	}
 
 	.main {
