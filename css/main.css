@@ -157,14 +157,12 @@ a {
 	.form-wrap input[type="text"] {
 	  width: 100%;
 	}
-}
-
-@media only screen and (max-width: 695px) {
 
 	.items li {
 		font-size: 1em;
 		padding: 6% 7%;
 	}
+
 
 	.items-wrap {
 		margin-top: -10px;
@@ -175,6 +173,19 @@ a {
 	}
 }
 
+}
+
+/*@media only screen and (max-width: 695px) {
+
+	
+	.items-wrap {
+		margin-top: -10px;
+	}
+
+	.main {
+		width: 80%;
+	}
+}*/
 
 @media only screen and (max-width: 400px) {
 		h1 {
